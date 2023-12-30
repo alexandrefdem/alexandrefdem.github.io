@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://alexandrefde.github.io"
+base_url = "https://alexandrefdem.github.io"
 
 theme = "papermod"
 
@@ -59,17 +59,3 @@ social_icons = [
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
 
-# translations for the default language are not prefixed by languages.code
-[translations]
-summary = "My blog"
-
-[languages.pt]
-generate_feed = true # there will be a feed for French content
-build_search_index = true
-taxonomies = [
-    {name = "auteurs"},
-    {name = "tags"},
-]
-
-[languages.pt.translations]
-summary = "Meu blog"
